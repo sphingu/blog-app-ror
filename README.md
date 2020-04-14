@@ -8,7 +8,19 @@
 - `bundle install`
 - `bundle install --without production`
 - `gem 'sqlite3'`
-- 
+- `heroku login/create/rename`
+- `git push heroku master`
+- `rails generate scaffold Article title:string description:text`
+- `rails generate migration create_articles`
+- `rails db:migrate`
+- `rails db:rollback` => rollback last migration
+- ``
+- ``
+- ``
+- ``
+- ``
+- ``
+- ``
 
 * Ruby version
 
@@ -27,3 +39,4 @@
 * Deployment instructions
 
 * ...
+
