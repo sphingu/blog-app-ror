@@ -14,7 +14,22 @@
 - `rails generate migration create_articles`
 - `rails db:migrate`
 - `rails db:rollback` => rollback last migration
-- ``
+- `rails c` => rails console
+  ```ruby
+    Article.create(title: "first article", description: "Description of first article")
+    article = Article.new
+    article.title = "second article"
+    article.description = "description of second article"
+    article = Article.new(title: "third article", description: "description of third article")
+    article = Article.find(1)
+    Article.first
+    Article.last
+    article.destroy
+    article.save
+    article.errors
+    article.errors.full_messages
+    reload!
+    ```
 - ``
 - ``
 - ``
