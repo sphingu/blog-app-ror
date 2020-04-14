@@ -37,6 +37,10 @@
 - ``
 - ``
 
+- code
+- `byebug`
+- `continue`
+
 * Ruby version
 
 * System dependencies

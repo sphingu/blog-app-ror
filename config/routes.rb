@@ -7,6 +7,9 @@ Rails.application.routes.draw do
   # custom url for controller action
   get "sayhello", to: "home#greet"
 
+  # article routes
+  resources :articles, only: [:show, :index]
+
   # Set route as root of project
   root "home#index"
 end
