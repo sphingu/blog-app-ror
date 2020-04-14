@@ -1,6 +1,7 @@
 # README
 
 ## important commands
+- `rails new blog-app`
 - `rails routes` => logs available routes
 - `rails routes --expanded`
 - `rails server` / `rails s`
