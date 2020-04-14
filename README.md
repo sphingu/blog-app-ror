@@ -5,6 +5,10 @@
 - `rails routes` => logs available routes
 - `rails routes --expanded`
 - `rails server` / `rails s`
+- `bundle install`
+- `bundle install --without production`
+- `gem 'sqlite3'`
+- 
 
 * Ruby version
 
