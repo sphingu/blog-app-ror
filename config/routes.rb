@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get "sayhello", to: "home#greet"
 
   # article routes
-  resources :articles, only: [:show, :index, :new, :create, :edit, :update]
+  resources :articles #, only: [:show, :index, :new, :create, :edit, :update, :destroy]
 
   # Set route as root of project
   root "home#index"
